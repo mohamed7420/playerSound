@@ -12,6 +12,7 @@
 		BA05E36A22F85B1200427991 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA05E36822F85B1200427991 /* Main.storyboard */; };
 		BA05E36C22F85B1400427991 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA05E36B22F85B1400427991 /* Assets.xcassets */; };
 		BA05E36F22F85B1400427991 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA05E36D22F85B1400427991 /* LaunchScreen.storyboard */; };
+		BA05E37822F85BA200427991 /* note1.wav in Resources */ = {isa = PBXBuildFile; fileRef = BA05E37722F85BA200427991 /* note1.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BA05E36B22F85B1400427991 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA05E36E22F85B1400427991 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA05E37022F85B1400427991 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA05E37722F85BA200427991 /* note1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = note1.wav; path = ../../../../../Desktop/swiftPractise/note1.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +62,17 @@
 				BA05E36B22F85B1400427991 /* Assets.xcassets */,
 				BA05E36D22F85B1400427991 /* LaunchScreen.storyboard */,
 				BA05E37022F85B1400427991 /* Info.plist */,
+				BA05E37622F85B9200427991 /* New Group */,
 			);
 			path = playtSound;
+			sourceTree = "<group>";
+		};
+		BA05E37622F85B9200427991 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				BA05E37722F85BA200427991 /* note1.wav */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +133,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA05E37822F85BA200427991 /* note1.wav in Resources */,
 				BA05E36F22F85B1400427991 /* LaunchScreen.storyboard in Resources */,
 				BA05E36C22F85B1400427991 /* Assets.xcassets in Resources */,
 				BA05E36A22F85B1200427991 /* Main.storyboard in Resources */,
